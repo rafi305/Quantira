@@ -14196,3 +14196,29 @@ padding-top: 20px;
     margin-left: 714px  !important;
     margin-top: -36px !important;
 }
+
+.member h4{
+  color: var(--secondary);
+  padding-bottom: 5px;
+}
+
+.team-title{
+  color: var(--primary);
+}
+
+.modal-text-team{
+  line-height: 1.5rem ; 
+  padding-top: 10px;
+  font-size: 16px;
+  font-style: italic;
+  color: #aaaaaa; 
+  font-family: 'Open Sans', sans-serif; 
+  text-align: justify;
+}
+.modal-title-team{
+  color: var(--secondary);
+}
+
+.team-image{
+
+}
