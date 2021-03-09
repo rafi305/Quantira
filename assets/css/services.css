@@ -805,6 +805,40 @@ height: 450px !important;
   font-size: 18px;
 }
 
+.services .service-box.primary {
+  border-bottom: 3px solid #fdaf17;
+}
+
+.services .service-box.primary .icon {
+  color: #fdaf17;
+  background: #dbf3fe;
+}
+
+.services .service-box.primary .read-more {
+  color: #fdaf17;
+}
+
+.services .service-box.primary:hover {
+  background: #fdaf17;
+}
+
+.services .service-box.secondary {
+  border-bottom: 3px solid #4a90e2;
+}
+
+.services .service-box.secondary .icon {
+  color: #4a90e2;
+  background: #dbf3fe;
+}
+
+.services .service-box.secondary .read-more {
+  color: #4a90e2;
+}
+
+.services .service-box.secondary:hover {
+  background: #4a90e2;
+}
+
 .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
 }
@@ -2525,3 +2559,37 @@ ul.links li a:hover {
 }
 .copyright p{color: #fff !important;}
 .footer-social a{color: #fff !important;}
+
+
+.w3l-about-breadcrum .breadcrum-bg {
+  background-color: #4a90e2 !important;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 80px; }
+
+  .w3l-about-breadcrum .breadcrum-bg h2 {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.w3l-about-breadcrum .breadcrum-bg p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.content h1{
+  font-size: 44px;
+  color: #4a90e2;
+  font-weight: 600;
+}
+
+
+.content p{
+  font-size: 14px;
+  color: #4a90e2;
+  font-weight: 400;
+}

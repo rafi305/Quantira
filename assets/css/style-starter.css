@@ -12146,7 +12146,7 @@ section.w3l-about2 p {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
-  margin: -40px;
+  margin-top: -50px;
   transition: .5s; 
   position: relative;
   overflow: hidden;
