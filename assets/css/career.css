@@ -610,7 +610,7 @@ span.job-time {
 a.aply-btn {
     color: #fff;
     padding: 0.3em 1em;
-    background: #de0f17;
+    background: var(--primary);
     font-size: 0.9em;
     letter-spacing: 1px;
 }
