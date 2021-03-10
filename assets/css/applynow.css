@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+   
+  }
+
+.about .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+}
+
+.content h1{
+    font-size: 44px;
+    
+    font-weight: 600;
+  }
+  
+  
+  .content p{
+    font-size: 14px;
+    
+    font-weight: 400;
+  }
+  
+  .content li{
+   line-height: 2rem;
+  
+   list-style-type: disc;
+  
+  }
+
+
+/* .content li::before{
+    content: "\2022";
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em;
+     
+     } */
+    

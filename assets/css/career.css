@@ -1806,10 +1806,10 @@ ul.links li a:hover {
     -ms-transition: all 0.7s ease-in-out;
 }
 
-.owl-item.active {
+/* .owl-item.active {
     padding: 15px;
     border: 1px solid #e4e4e4;
-}
+} */
 
 /*--social-icons--*/
 
@@ -2605,7 +2605,7 @@ ul.links li a:hover {
     width: 100%; } }
 .nav-link{color: var(--secondary) !important;}
 .container-fluid .navbar-expand-lg{background: #fff !important;}
-.active{background: #fff !important;}
+.active{background: #fff ;}
 .hero-header-11-content{background: #fff !important;}
 .w3l-about-breadcrum{
     background: var(--secondary) !important;

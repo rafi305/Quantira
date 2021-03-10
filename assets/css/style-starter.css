@@ -7414,7 +7414,8 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-envelope-o:before {
-  content: ""; }
+  content: "";
+color: var(--primary); }
 
 .fa-heart:before {
   content: ""; }
@@ -7474,7 +7475,8 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-clock-o:before {
-  content: ""; }
+  content: "";
+color: var(--primary); }
 
 .fa-road:before {
   content: ""; }
@@ -7837,7 +7839,8 @@ a.text-dark:hover, a.text-dark:focus {
   content: ""; }
 
 .fa-phone:before {
-  content: ""; }
+  content: "";
+color: var(--primary); }
 
 .fa-square-o:before {
   content: ""; }
@@ -10482,7 +10485,8 @@ p {
   .w3l-main-slider .ourvalues-view {
     background: url(../image/our-values-1.jpg) no-repeat center;
     background-size: cover;
-    min-height: 700px;
+    min-height: 95vh;
+    max-height: 100vh;
     position: relative;
     z-index: 0;
     display: grid;
