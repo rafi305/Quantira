@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #000;
 
 }
@@ -50,7 +50,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+
   text-transform: uppercase;
 }
 
@@ -2596,13 +2596,31 @@ ul.links li a:hover {
 
 .content h1{
   font-size: 44px;
-  color: #4a90e2;
+  
   font-weight: 600;
 }
 
 
 .content p{
   font-size: 14px;
-  color: #4a90e2;
+  
   font-weight: 400;
 }
+
+.content li{
+ line-height: 2rem;
+ font-weight: bold;
+
+}
+
+.content li::before{
+content: "\2022";
+color: var(--primary);
+font-size: 20px;
+font-weight: bold;
+display: inline-block; 
+width: 2em;
+margin-left: -1em;
+ 
+ }
+
