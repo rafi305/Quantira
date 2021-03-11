@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
 
     <script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
 </head>
@@ -84,9 +84,19 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item @@services-active">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
+ <li id="nav-ser" class="nav-item @@services-active" style="justify-content: center;">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                    <span class="nav-link">Service</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu" style="text-align:center; line-height: 2rem; min-width:250px ">
+                          <li class=""><a href="full_stack_development.html">Full Stack Development</a></li>
+                          <li><a href="database_development.html">Database Development</a></li>
+                          <li><a href="data_governance.html">Data Governance</a></li>
+                          <li><a href="liferay_development.html">Liferay Development</a></li>
+                          <li><a href="model_validation.html">Model Validation</a></li>
+                          <li><a href="process_consulting.html">Process Consulting</a></li>
+                          <li><a href="quality_assurance.html">Quality Assurance</a></li>
+                      </ul>
+                  </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="#">Platforms </a>
                 </li>
@@ -94,7 +104,7 @@
                   <a class="nav-link" href="career.html">Career & Life @Quantira</a>
                 </li>
                 <li class="nav-item @@contact-active">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact_us.html">Contact</a>
                 </li>
               </ul>
              
@@ -134,16 +144,16 @@
             <div class="content">
 
               <h1> Our Value Additions</h1>
-              <p style="line-height: 1rem;"> <span class="banner-sub">Reduction in lead time</span><br>
+              <p style="line-height: 1rem;"> <span class="banner-title">Reduction in lead time</span><br>
               Reduce the development cycle of your product through automation</p>
 
-              <p style="line-height: 1rem;"> <span class="banner-sub">Reduced Cost</span><br>
+              <p style="line-height: 1rem;"> <span class="banner-title">Reduced Cost</span><br>
               Multi-tasking by our resources, having in-depth knowledge about multiple roles and technologies saves lot of cost and time</p>
 
-              <p style="line-height: 1rem;"> <span class="banner-sub">Integrity</span><br>
+              <p style="line-height: 1rem;"> <span class="banner-title">Integrity</span><br>
               High quality and reliable data, no data tampering, complete control on product IP</p>
 
-              <p style="line-height: 1rem;"> <span class="banner-sub"> Tailored solution</span><br>
+              <p style="line-height: 1rem;"> <span class="banner-title"> Tailored solution</span><br>
               Starting right from commencement of an idea till the execution of the final product, it incorporates all your needs</p>
 
               <!--<div class="text-center text-lg-start">
@@ -382,7 +392,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript">
+$(document).ready(function() {
+  $('#nav-ser').click(function() {
+    $(this).parent().find(".dropdown-menu").fadeToggle();
+  });
+});
+</script>
 </body>
 
 </html>

@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <!-- Template Main CSS File -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link href="assets/css/services.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
  
@@ -80,9 +81,19 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item @@services-active">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
+ <li id="nav-ser" class="nav-item @@services-active" style="justify-content: center;">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                    <span class="nav-link">Service</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu" style="text-align:center; line-height: 2rem; min-width:250px ">
+                          <li class=""><a href="full_stack_development.html">Full Stack Development</a></li>
+                          <li><a href="database_development.html">Database Development</a></li>
+                          <li><a href="data_governance.html">Data Governance</a></li>
+                          <li><a href="liferay_development.html">Liferay Development</a></li>
+                          <li><a href="model_validation.html">Model Validation</a></li>
+                          <li><a href="process_consulting.html">Process Consulting</a></li>
+                          <li><a href="quality_assurance.html">Quality Assurance</a></li>
+                      </ul>
+                  </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="#">Platforms </a>
                 </li>
@@ -90,7 +101,7 @@
                   <a class="nav-link" href="career.html">Career & Life @Quantira</a>
                 </li>
                 <li class="nav-item @@contact-active">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact_us.html">Contact</a>
                 </li>
               </ul>
              
@@ -182,11 +193,17 @@
                   <i class="ri-line-chart-line"></i>
                   <div>
                     <h4>Analysis and Strategy design</h4>
-                    <p>Requirement Documentation<br>
-                    Theme & Template framework finalisation<br>
-                    Custom workflow design<br>
-                    Enterprise Content Management Conceptualization<br>
-                    Implementation roadmap</p>
+                    <p><ul class="list-ld">
+                                    <li>Requirement Documentation
+                                    </li>
+                                    <li>Theme &amp; Template framework finalisation
+                                    </li>
+                                    <li>Custom workflow design
+                                    </li>
+                                    <li>Enterprise Content Management Conceptualization
+                                    </li>
+                                    <li>Implementation roadmap</li>
+                                </ul></p>
                   </div>
                 </div>
       
@@ -194,9 +211,14 @@
                   <i class="ri-stack-line"></i>
                   <div>
                     <h4>Liferay Development</h4>
-                    <p>Development of workflows<br><br>
-                    Development of security and authentication models<br>
-                    Integration in enterprise applications</p>
+                    <p><ul class="list-ld">
+                                    <li>Development of workflows
+                                    </li>
+                                    <li>Development of security and authentication models
+                                    </li>
+                                    <li>Integration in enterprise applications
+                                    </li>
+                                </ul></p>
                   </div>
                 </div>
       
@@ -204,7 +226,10 @@
                   <i class="ri-brush-4-line"></i>
                   <div>
                     <h4>Support</h4>
-                    <p>Ongoing support, monitoring and maintenance</p>
+                    <p><ul class="list-ld">
+                                    <li>Ongoing support, monitoring and maintenance
+                                    </li>
+                                </ul></p>
                   </div>
                 </div>
       
@@ -379,7 +404,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript">
+$(document).ready(function() {
+  $('#nav-ser').click(function() {
+    $(this).parent().find(".dropdown-menu").fadeToggle();
+  });
+});
+</script>
 </body>
 
 </html>

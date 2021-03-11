@@ -15,7 +15,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/services.css" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
 </head>
 
@@ -81,9 +81,19 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item @@services-active">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
+ <li id="nav-ser" class="nav-item @@services-active" style="justify-content: center;">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                    <span class="nav-link">Service</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu" style="text-align:center; line-height: 2rem; min-width:250px ">
+                          <li class=""><a href="full_stack_development.html">Full Stack Development</a></li>
+                          <li><a href="database_development.html">Database Development</a></li>
+                          <li><a href="data_governance.html">Data Governance</a></li>
+                          <li><a href="liferay_development.html">Liferay Development</a></li>
+                          <li><a href="model_validation.html">Model Validation</a></li>
+                          <li><a href="process_consulting.html">Process Consulting</a></li>
+                          <li><a href="quality_assurance.html">Quality Assurance</a></li>
+                      </ul>
+                  </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="#">Platforms </a>
                 </li>
@@ -91,7 +101,7 @@
                   <a class="nav-link" href="career.html">Career & Life @Quantira</a>
                 </li>
                 <li class="nav-item @@contact-active">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact_us.html">Contact</a>
                 </li>
               </ul>
              
@@ -184,10 +194,18 @@
             <i class="ri-line-chart-line"></i>
             <div>
               <h4>Discovery</h4>
-                    <p>Understanding of existing processes and workflows</p>
-                    <p>Analysis and Root Cause Discovery</p>
-                    <p>Discussions and brainstorming</p>
-                    <p>Finalization of Process Maps and Workflows.</p>
+              <ul class="list-ld">
+                <span class="approach-list-bullet"></span><li class="approach-list">  Understanding of existing processes and workflows
+
+                </li>
+                <span class="approach-list-bullet"></span><li class="approach-list">Analysis and Root Cause Discovery
+                </li>
+                <span class="approach-list-bullet"></span><li class="approach-list">Discussions and brainstorming
+                </li>
+                <span class="approach-list-bullet"></span><li class="approach-list">Finalization of  Process Maps and Workflows.
+                </li>
+
+                </ul>
             </div>
           </div>
 
@@ -195,9 +213,15 @@
             <i class="ri-stack-line"></i>
             <div>
               <h4>Design</h4>
-                    <p>Define SOPs, Checklists and guidelines</p>
-                    <p>Design As-Is Process Maps</p>
-                    <p>Creation of templates for reporting documents i.e. Audit reports, MIS etc</p>
+<ul class="list-ld">
+                      <span class="approach-list-bullet"></span><li class="approach-list">Define SOPs, Checklists and guidelines
+                      </li>
+                      <span class="approach-list-bullet"></span><li class="approach-list">Design As-Is Process Maps
+                      </li>
+                      <span class="approach-list-bullet"></span><li class="approach-list">Creation of templates for reporting documents i.e. Audit reports, MIS etc
+                      </li>
+
+                                        </ul>
             </div>
           </div>
 
@@ -205,10 +229,17 @@
             <i class="ri-brush-4-line"></i>
             <div>
               <h4>Implementation</h4>
-                    <p>Establish Quality and Process Improvement Goals</p>
-                    <p>Process Training and Internalization</p>
-                    <p>Establish Audit and Related Processes to verify compliance and adequacy</p>
-                    <p>Establish Measurement and Continual Improvement Process</p>
+              <ul class="list-ld">
+                          <span class="approach-list-bullet"></span><li class="approach-list">Establish Quality and Process Improvement Goals
+                          </li>
+                          <span class="approach-list-bullet"></span><li class="approach-list">Process Training and Internalization
+                          </li>
+                          <span class="approach-list-bullet"></span><li class="approach-list">Establish Audit and Related Processes to verify compliance and adequacy
+                          </li>
+                          <span class="approach-list-bullet"></span><li class="approach-list">Establish Measurement and Continual Improvement Process
+                          </li>
+                                            
+                                        </ul>
             </div>
           </div>
 
@@ -216,10 +247,20 @@
             <i class="ri-magic-line"></i>
             <div>
               <h4>Tracking</h4>
-                    <p>Web based Process tracking platform:</p>
-                    <p>To track all process maps</p>
-                    <p>All supporting documents are uploaded for paper trail</p>
-                    <p>Audit Reports & Certifications</p>
+   <ul class="list-ld">
+                            <li>Web based Process tracking platform:
+                            </li>
+                            <span class="approach-list-bullet"></span><li class="approach-list">To track all process maps
+                            </li>
+                            <span class="approach-list-bullet"></span><li class="approach-list">To ensure all the steps are followed in the stipulated timeline
+                            </li>
+                            <span class="approach-list-bullet"></span><li class="approach-list">All supporting documents are uploaded for paper trail
+                            </li>
+                            <span class="approach-list-bullet"></span><li class="approach-list">Audit Reports &amp; Certifications
+                            </li>
+                                            
+
+                                        </ul>
             </div>
           </div>
 
@@ -457,7 +498,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript">
+$(document).ready(function() {
+  $('#nav-ser').click(function() {
+    $(this).parent().find(".dropdown-menu").fadeToggle();
+  });
+});
+</script>
 </body>
 
 </html>
