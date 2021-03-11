@@ -136,6 +136,10 @@
   -webkit-filter: none;
           filter: none; }
 
+.size-30px{
+  font-size: 30px;
+}
+
 .fa-stack {
   position: relative;
   display: inline-block;

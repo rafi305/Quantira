@@ -29,6 +29,41 @@ body {
   
   }
 
+  
+.w3l-about-breadcrum .breadcrum-bg {
+  background-color: #4a90e2 !important;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 80px; }
+  .w3l-about-breadcrum .breadcrum-bg h2 {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600; }
+    .w3l-about-breadcrum .breadcrum-bg p {
+      font-size: 16px;
+      color: #fff;
+      margin-top: 10px; }
+    
+    .w3l-about-breadcrum .breadcrum-bg p a {
+      font-size: 16px;
+      color: var(--primary-color); }
+    
+    .w3l-about-breadcrum .breadcrum-bg p a:hover {
+      text-decoration: underline;
+      color: #fff; }
+    
+    @media (max-width: 736px) {
+      .w3l-about-breadcrum .breadcrum-bg h2 {
+        font-size: 40px; } }
+    
+    @media (max-width: 600px) {
+      .w3l-about-breadcrum .breadcrum-bg h2 {
+        font-size: 35px; }
+      .w3l-about-breadcrum .breadcrum-bg {
+        padding-top: 69px; } }
+
 
 /* .content li::before{
     content: "\2022";

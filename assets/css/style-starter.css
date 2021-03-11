@@ -10484,6 +10484,7 @@ p {
 
   .w3l-main-slider .ourvalues-view {
     background: url(../image/our-values-1.jpg) no-repeat center;
+    /* filter: grayscale(60%);   */
     background-size: cover;
     min-height: 95vh;
     max-height: 100vh;

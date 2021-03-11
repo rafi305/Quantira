@@ -15,6 +15,7 @@
 body {
   font-family: 'Poppins', sans-serif !important;
   color: #000;
+  /* overflow: hidden; */
 
 }
 
@@ -589,7 +590,7 @@ height: 450px !important;
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: var(--secondary);
   font-weight: 700;
   margin-bottom: 18px;
 }
