@@ -1,0 +1,5 @@
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    top:0;
+    
+  margin-top: -40vh;
+}
