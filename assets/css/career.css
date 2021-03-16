@@ -70,7 +70,7 @@ ul {
 
 /*--/navbar--*/
 
-.navbar {
+/* .navbar {
     padding: 0.8em 2em;
 }
 
@@ -122,7 +122,7 @@ li.nav-item {
     padding: 0;
 }
 
-/*---*/
+--- */
 
 /*---*/
 
@@ -136,9 +136,7 @@ li.nav-item {
     border: 0px;
 }
 
-li.nav-item.active {
-    background: #2529d8;
-}
+
 
 .dropdown-item:hover,
 .dropdown-item:focus {
@@ -2605,7 +2603,7 @@ ul.links li a:hover {
     width: 100%; } }
 .nav-link{color: var(--secondary) !important;}
 .container-fluid .navbar-expand-lg{background: #fff !important;}
-.active{background: #fff ;}
+
 .hero-header-11-content{background: #fff !important;}
 .w3l-about-breadcrum{
     background: var(--secondary) !important;
