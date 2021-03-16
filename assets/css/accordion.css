@@ -534,15 +534,15 @@ div#exit-accordion:hover i.fas.fa-times:before {
     }
 
     .accordion-item .padding {
-        height: 350px
+        height: 175px
     }
 
     .accordion.active .accordion-item .padding {
-        height: 500px
+        height: 250px
     }
 
     .accordion.active .accordion-item.active .padding {
-        height: 300px
+        height: 150px
     }
 
     .accordion.active .accordion-item.active h2 {

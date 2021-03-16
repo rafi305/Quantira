@@ -8,13 +8,12 @@
   <link rel="icon" href="assets/image/favicon.jpg" type="jpg" sizes="16x16">
   <title>Quantira</title>
   <link rel="stylesheet" href="assets/css/accordion.css">
-    <link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
-    
+  <link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <link rel="stylesheet" href="assets/css/slider.css">
-  <style>
-  
-  </style>
+  <script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
+ 
   <!-- /web fonts -->
   <!-- /font awesome -->
   <script src="assets/js/fonts.js"></script>
@@ -54,7 +53,7 @@
       }
     }("docReady", window);
   </script>
-<script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0c3f9d3b87.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -75,8 +74,19 @@
                     </li>
 
                     <li class="mobile-none weekends-center">
-                      <span class="fa fa-clock-o" aria-hidden="true"></span>
-                      <p>Mon - Fri: 9:00 - 19:00 / Closed on Weekends</p>
+                      <a href="#">
+                        <span class="fab fa-facebook-f px-2" aria-hidden="true"></span>
+                      </a>
+                      <a href="#">
+                        <span class="fab fa-twitter px-2" aria-hidden="true"></span>
+                      </a>
+                      <a href="#">
+                        <span class="fab fa-google-plus-g px-2" aria-hidden="true"></span>
+                      </a>
+                      <a href="#">
+                        <span class="fab fa-linkedin-in px-2" aria-hidden="true"></span>
+                      </a>
+                      <p></p>
                     </li>
                   </ul>
                 </div>
@@ -95,67 +105,53 @@
       </div>
     </div>
   </header>
-  <header class="w3l-header">
-    <div class="hero-header-11">
-      <div class="hero-header-11-content">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light py-0 px-0 text-center">
-            <a class="navbar-brand  " href="index.html"><img class="navbar-brand-logo"
-                src="assets/image/quantira-logo.png" alt="Quantira-logo" data-aos="fade-left" data-aos-offset="-900"
-                data-aos-once="true" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out"></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-            </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" data-aos="fade-left"
-              data-aos-offset="-900" data-aos-once="true" data-aos-delay="200" data-aos-duration="800"
-              data-aos-easing="ease-in-out" >
-              <ul class="navbar-nav" >
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item @@about-active">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-               
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand  " href="index.html"><img class="navbar-brand-logo" src="assets/image/quantira-logo.png"
+        alt="Quantira-logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                <li class="nav-item @@services-active" style="display: flex;justify-content: center;">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
-                    <span class="nav-link">Services</span><span class="caret"></span></a>
-                      <ul class="dropdown-menu" style="text-align:center; line-height: 2rem; min-width:250px ">
-                          <li class=""><a href="full_stack_development.html">Full Stack Development</a></li>
-                          <li><a href="database_development.html">Database Development</a></li>
-                          <li><a href="data_governance.html">Data Governance</a></li>
-                          <li><a href="liferay_development.html">Liferay Development</a></li>
-                          <li><a href="model_validation.html">Model Validation</a></li>
-                          <li><a href="process_consulting.html">Process Consulting</a></li>
-                          <li><a href="quality_assurance.html">Quality Assurance</a></li>
-                      </ul>
-                  </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="platform.html">Platforms </a>
-                </li>
-                <li class="nav-item @@career-active">
-                  <a class="nav-link" href="career.html">Career & Life @Quantira</a>
-                </li>
-                <li class="nav-item @@contact-active">
-                  <a class="nav-link" href="contact_us.html">Contact</a>
-                </li>
-              </ul>
-             
-            </div>
-            <!-- <a class="navbar-brand  mobile-none-right" style="opacity: 0;cursor: default;" href="#"><img
-                class="navbar-brand-logo" src="assets/image/quantira-logo.png" alt="" /></a> -->
-          </nav>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           
+            <a  class="dropdown-item" href="full_stack_development.html">Full Stack Development</a>
+            <a   class="dropdown-item" href="database_development.html">Database Development</a>
+            <a  class="dropdown-item" href="data_governance.html">Data Governance</a>
+            <a  class="dropdown-item" href="liferay_development.html">Liferay Development</a>
+            <a  class="dropdown-item" href="model_validation.html">Model Validation</a>
+            <a  class="dropdown-item" href="process_consulting.html">Process Consulting</a>
+            <a  class="dropdown-item" href="quality_assurance.html">Quality Assurance</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="platform.html">Platforms </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="career.html">Career & Life @Quantira</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="contact_us.html">Contact</a>
+        </li>
+      </ul>
+
     </div>
-  </header>
+  </nav>
   <!-- //header -->
-  
+
   <section class="w3l-main-slider">
     <!-- main-slider -->
     <div class="companies20-content">
@@ -170,27 +166,38 @@
 
 
                     <div style="display: flex; justify-content: space-between; align-items: center; max-width:100vw">
-                      <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 100px 10px; margin-left: -4%; ">
+                      <div
+                        style="display: flex; flex-direction: column; align-items: flex-start; gap: 100px 10px; margin-left: -4%; ">
                         <div>
                           <!-- <p class="slideone"> </p> -->
-                          <h3 class="banner-text mb-0 text-left">Application <span class="banner-sub">Development</span></h3>
-                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Get High-Quality Software Design & Solid, Foolproof Technology that will scale to millions of users.</p>
+                          <h3 class="banner-text mb-0 text-left">Application <span class="banner-sub">Development</span>
+                          </h3>
+                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Get High-Quality
+                            Software Design & Solid, Foolproof Technology that will scale to millions of users.</p>
                         </div>
                         <div class="desktop-none">
                           <img src="./assets/image/slider1.png" alt="" class="img-fluid">
                         </div>
                         <div style="display: flex; gap: 100px; max-width: 100%;">
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Product Design and UI/UX</p></button>
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Full Stack Solutions</p></button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Product Design and UI/UX</p>
+                          </button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Full Stack Solutions</p>
+                          </button>
                         </div>
                         <div style="display: flex; gap: 100px; ">
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;DevOps</p></button>
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Analytics</p></button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;DevOps</p>
+                          </button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp;Analytics</p>
+                          </button>
                         </div>
                       </div>
 
                       <div class="mobile-none">
-                        <img src="./assets/image/slider1.png" alt="" class="img-fluid" >
+                        <img src="./assets/image/slider1.png" alt="" class="img-fluid">
                       </div>
 
                     </div>
@@ -217,18 +224,27 @@
                           <!-- <p class="slidetwo ">To the advantage of our<br> business partners</p> -->
                           <h3 class="banner-text mb-0 text-left">Managed Data <span class="banner-sub">Services</span>
                           </h3>
-                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Help organisations manage growing volume of data through high action databases</p>
+                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Help organisations
+                            manage growing volume of data through high action databases</p>
                         </div>
                         <div class="desktop-none">
                           <img src="./assets/image/slider2.png" alt="" class="img-fluid" style="width:80vmin">
                         </div>
                         <div style="display: flex; gap: 100px;">
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Enterprise Data Management </p></button>
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Data Governance</p></button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Enterprise Data Management </p>
+                          </button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Data Governance</p>
+                          </button>
                         </div>
                         <div style="display: flex; gap: 100px; ">
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Digital Data Solutions</p></button>
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Data Warehousing</p></button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Digital Data Solutions</p>
+                          </button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Data Warehousing</p>
+                          </button>
                         </div>
                       </div>
 
@@ -256,19 +272,29 @@
                     <div style="display: flex; justify-content: space-between; align-items: center; max-width:100vw">
                       <div style="display: flex; flex-direction: column; align-items: left; gap: 100px 10px; ">
                         <div>
-                          <h3 class="banner-text mb-0 text-left">Model Validation & <span class="banner-sub">Quality Assurance </span></h3>
-                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Incorporating domain expertise while analysing requirement , reviewing requirement and test planning</p>
+                          <h3 class="banner-text mb-0 text-left">Model Validation & <span class="banner-sub">Quality
+                              Assurance </span></h3>
+                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Incorporating
+                            domain expertise while analysing requirement , reviewing requirement and test planning</p>
                         </div>
                         <div class="desktop-none">
                           <img src="./assets/image/slider3.png" alt="" class="img-fluid" style="width:80vmin">
                         </div>
                         <div style="display: flex; gap: 100px;">
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Management Services</p></button>
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Engineering and Assurance</p></button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Management Services</p>
+                          </button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Engineering and Assurance
+                            </p>
+                          </button>
                         </div>
                         <div style="display: flex; gap: 100px; ">
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Model Validation</p></button>
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Assurance</p>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Model Validation</p>
+                          </button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Quality Assurance</p>
 
                           </button>
                         </div>
@@ -297,20 +323,32 @@
                     <div style="display: flex; justify-content: space-between; align-items: center; max-width:100vw">
                       <div style="display: flex; flex-direction: column; align-items: left; gap: 100px 10px; ">
                         <div>
-                          <h3 class="banner-text mb-0 text-left">Liferay <span class="banner-sub">Development</span></h3>
-                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Implementation strategy and oversee IT infrastructure Our Expertise Liferay Portal Development & Customization Liferay Implementation Liferay Portal Migration & Integration How we add value? Highly customized portals that meet business needs</p>
+                          <h3 class="banner-text mb-0 text-left">Liferay <span class="banner-sub">Development</span>
+                          </h3>
+                          <p class="slidethree mt-4 text-left" style="margin-left: 0;margin-right: 0">Implementation
+                            strategy and oversee IT infrastructure Our Expertise Liferay Portal Development &
+                            Customization Liferay Implementation Liferay Portal Migration & Integration How we add
+                            value? Highly customized portals that meet business needs</p>
                         </div>
                         <div class="desktop-none">
                           <img src="./assets/image/slider4.png" alt="" class="img-fluid" style="width:80vmin">
                         </div>
                         <div style="display: flex; gap: 100px;">
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Analysis and Strategy
-                            design</p></button>
-                          <button class="btn-hover btn-hover-3"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Liferay Development</p></button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Analysis and Strategy
+                              design</p>
+                          </button>
+                          <button class="btn-hover btn-hover-3">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Liferay Development</p>
+                          </button>
                         </div>
                         <div style="display: flex; gap: 100px; ">
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Designing solution architecture</p> </button>
-                          <button class="btn-hover btn-hover-4"><p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Support</p></button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Designing solution architecture</p>
+                          </button>
+                          <button class="btn-hover btn-hover-4">
+                            <p><i class="fa fa-star" aria-hidden="true"></i> &nbsp; Support</p>
+                          </button>
                         </div>
                       </div>
 
@@ -336,7 +374,8 @@
         <div class="header-section text-center">
           <h3>Why
             Choose Us</h3>
-          <p class="mt-3 mb-5">At Quantira, we help in connecting qualified IT team or professionals to lucrative opportunities at businesses, organizations, and SMEs virtually across diverse industry verticals.</p>
+          <p class="mt-3 mb-5">At Quantira, we help in connecting qualified IT team or professionals to lucrative
+            opportunities at businesses, organizations, and SMEs virtually across diverse industry verticals.</p>
         </div>
         <div class="features-with-17-top_sur">
           <div class="row">
@@ -344,7 +383,7 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-laptop-code fa-3x pb-3" ></i>
+                  <i class="fas fa-laptop-code fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Domain Expertise</a></h6>
@@ -358,7 +397,7 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-calendar-check fa-3x pb-3" ></i>
+                  <i class="fas fa-calendar-check fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Track record</a></h6>
@@ -372,7 +411,7 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-donate fa-3x pb-3" ></i>
+                  <i class="fas fa-donate fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Cost Effective</a> </h6>
@@ -385,7 +424,7 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-users fa-3x pb-3" ></i>
+                  <i class="fas fa-users fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Team Pedigree</a></h6>
@@ -398,7 +437,7 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-cogs fa-3x pb-3" ></i>
+                  <i class="fas fa-cogs fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Customised Approach</a></h6>
@@ -411,12 +450,12 @@
               data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-shield-alt fa-3x pb-3" ></i>
+                  <i class="fas fa-shield-alt fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Scalability</a> </h6>
-                  <p>Help organisations manage growing volume of data through high action 
-databases.</p>
+                  <p>Help organisations manage growing volume of data through high action
+                    databases.</p>
                 </div>
               </div>
             </div>
@@ -425,7 +464,7 @@ databases.</p>
       </div>
     </div>
   </section>
-  <section class="w3l-index2"  id="industries">
+  <section class="w3l-index2" id="industries">
     <div class="row abouthy-img-grids no-gutters">
       <div class="col-lg-4 col-md-6 img-one">
         <img src="assets/image/investment-2.jpg" alt=" " class="img-fluid">
@@ -476,7 +515,9 @@ databases.</p>
       <div class="container py-lg-3">
         <div class="header-section text-center">
           <h3>Delivery</h3>
-          <p class="mt-3 mb-5">We help you devise solutions that are not only technically sound but build a digital platform for your business. We offer the right mix of experience, expertise, and resources to turn your challenges into opportunities.</p>
+          <p class="mt-3 mb-5">We help you devise solutions that are not only technically sound but build a digital
+            platform for your business. We offer the right mix of experience, expertise, and resources to turn your
+            challenges into opportunities.</p>
         </div>
         <div class="features-with-17-top_sur">
           <div class="row">
@@ -484,7 +525,7 @@ databases.</p>
               data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-file-code fa-3x pb-3" ></i>
+                  <i class="fas fa-file-code fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">Agile Co-Development</a></h6>
@@ -500,7 +541,7 @@ databases.</p>
               data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-chart-line fa-3x pb-3" ></i>
+                  <i class="fas fa-chart-line fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">LeanStartup</a></h6>
@@ -515,7 +556,7 @@ databases.</p>
               data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-sitemap fa-3x pb-3" ></i>
+                  <i class="fas fa-sitemap fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">
@@ -532,7 +573,7 @@ databases.</p>
               data-aos-duration="500" data-aos-easing="ease-in-out">
               <div class="features-with-17-right-tp_sur">
                 <div class="features-with-17-left1">
-                  <i class="fas fa-tasks fa-3x pb-3" ></i>
+                  <i class="fas fa-tasks fa-3x pb-3"></i>
                 </div>
                 <div class="features-with-17-left2">
                   <h6><a href="#">
@@ -548,22 +589,17 @@ databases.</p>
       </div>
     </div>
   </section>
-  <section class="w3l-logos py-5 " style="background-color:black;">
-    <div class="header-section text-center">
-      <h3 style="color: white;">Services</h3>
+  <div class="header-section text-center py-5">
+    <h3>Services</h3>
 
-    </div>
-
-
-  </section>
+  </div>
 
 
   <section>
     <div id="accordion" class="accordion background flawed-z-correct black"
       data-background="assets/image/services-cover.jpg"
-      style="background-image: url() center center no-repeat;height:100vh; overflow: hidden !important; background-size: cover; background-color: rgba(10, 10, 10, 0.9);">
-      <div class="accordion-item" id="alexa-netflix" data-background="assets/image/data-governance.jpg"
-        data-track="Accordion">
+      style="background-image: url() center center no-repeat; height:50vh; overflow: hidden !important; background-size: cover; background-color: rgba(10, 10, 10, 0.9);">
+      <div class="accordion-item" id="first" data-track="Accordion">
         <div class="padding vertically-center text-white">
           <h5>Data Governance</h5>
           <br>
@@ -572,8 +608,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="google-lights" data-background="assets/image/database-development.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="second" data-track="Accordion">
         <div class="padding vertically-center text-white">
           <h5>Database Development</h5>
           <br>
@@ -582,8 +617,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="siri-lights" data-background="assets/image/liferay-development.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="third" data-track="Accordion">
         <div class="padding text-white vertically-center">
           <h5>Liferay Development</h5>
           <br>
@@ -592,8 +626,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="alexa-party" data-background="assets/image/model-validation.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="fourth" data-track="Accordion">
         <div class="padding text-white vertically-center">
 
           <h5>Model Validation</h5>
@@ -603,8 +636,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="fifth" data-background="assets/image/fullstack-development.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="fifth" data-track="Accordion">
         <div class="padding text-white vertically-center">
           <h5>Full Stack Development</h5>
           <br>
@@ -613,8 +645,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="sixth" data-background="assets/image/process-consulting.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="sixth" data-track="Accordion">
         <div class="padding text-white vertically-center">
           <h5>Process Consulting</h5>
           <br>
@@ -623,8 +654,7 @@ databases.</p>
 
         </div>
       </div>
-      <div class="accordion-item" id="seventh" data-background="assets/image/quality-assurance.jpg"
-        data-track="Accordion">
+      <div class="accordion-item" id="seventh" data-track="Accordion">
         <div class="padding text-white vertically-center">
           <h5>Quality Assurance</h5>
           <br>
@@ -640,12 +670,14 @@ databases.</p>
   <section>
     <div class="w3l-index3 py-5" id="about">
       <div class="container py-lg-3">
-    
+
         <div class="aboutgrids row">
           <div class="col-lg-6 aboutgrid1" data-aos="fade-up" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="350" data-aos-easing="ease-in-out">
             <h4>Accelerate your digital journey</h4>
-            <p>We help organisations in their digital transformation journey by creating customised solutions that meet their requirements. We utilize our deep expertise in technology and robust skills to bring industry disruption to the advantage of our business partners.</p>
+            <p>We help organisations in their digital transformation journey by creating customised solutions that meet
+              their requirements. We utilize our deep expertise in technology and robust skills to bring industry
+              disruption to the advantage of our business partners.</p>
 
             <ul class="services-list mb-5">
               <li>Digital Transformation</li>
@@ -672,16 +704,19 @@ databases.</p>
       <div class="container py-lg-3">
         <div class="header-section white text-center">
           <h3>Technologies We Use</h3>
-          <p class="mt-3 mb-5">Dive deeper into the customers’ thoughts and make use of predictive analytics with our development services.</p>
+          <p class="mt-3 mb-5">Dive deeper into the customers’ thoughts and make use of predictive analytics with our
+            development services.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="feature-gd tech-min-height">
-              <div class="icon"> <i class="fas fa-laptop fa-3x pb-3" ></i></div>
+              <div class="icon"> <i class="fas fa-laptop fa-3x pb-3"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">Frontend</a></h5>
-                <p> Our specialized  programmers let you add in interactivity, more complex animations and make it possible to build fully featured web applications Angular JS, React JS, Jquery, PHP, HTML, CSS, Javascript, Bootstrap.</p>
+                <p> Our specialized programmers let you add in interactivity, more complex animations and make it
+                  possible to build fully featured web applications Angular JS, React JS, Jquery, PHP, HTML, CSS,
+                  Javascript, Bootstrap.</p>
               </div>
             </div>
           </div>
@@ -689,10 +724,11 @@ databases.</p>
           <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="feature-gd tech-min-height">
-              <div class="icon"><i class="fas fa-database fa-3x pb-3" ></i></div>
+              <div class="icon"><i class="fas fa-database fa-3x pb-3"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">Database</a></h5>
-                <p> With our expertise in Database Management, Data Architecture we help to increase the agility, scalability and integrity of databases MS SQL, Postgres, Oracle, MySQL, Snowflake.</p>
+                <p> With our expertise in Database Management, Data Architecture we help to increase the agility,
+                  scalability and integrity of databases MS SQL, Postgres, Oracle, MySQL, Snowflake.</p>
               </div>
             </div>
           </div>
@@ -700,10 +736,11 @@ databases.</p>
           <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="feature-gd tech-min-height">
-              <div class="icon"> <i class="fas fa-cloud fa-3x pb-3" ></i></div>
+              <div class="icon"> <i class="fas fa-cloud fa-3x pb-3"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">Cloud</a></h5>
-                <p> We have technology that enables cloud applications that are reliable, flexible, scalable and cost efficient Amazon Web Services, Microsoft Azure, Google Cloud Platform.</p>
+                <p> We have technology that enables cloud applications that are reliable, flexible, scalable and cost
+                  efficient Amazon Web Services, Microsoft Azure, Google Cloud Platform.</p>
               </div>
             </div>
           </div>
@@ -711,10 +748,11 @@ databases.</p>
           <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="feature-gd tech-min-height">
-              <div class="icon"><i class="fas fa-chart-bar fa-3x pb-3" ></i></div>
+              <div class="icon"><i class="fas fa-chart-bar fa-3x pb-3"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">Analytics</a></h5>
-                <p> We provide trusted analytics platform that helps drive powerful decision making and produces winning results Power BI, Tableau.</p>
+                <p> We provide trusted analytics platform that helps drive powerful decision making and produces winning
+                  results Power BI, Tableau.</p>
               </div>
             </div>
           </div>
@@ -722,10 +760,11 @@ databases.</p>
           <div class="col-lg-4 col-md-6" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="feature-gd tech-min-height">
-              <div class="icon"> <i class="fas fa-ethernet fa-3x pb-3" ></i></div>
+              <div class="icon"> <i class="fas fa-ethernet fa-3x pb-3"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">SAAS</a></h5>
-                <p> We build powerful custom applications for enterprises that seamlessly automate workflows and improve efficiencies Powerapps.</p>
+                <p> We build powerful custom applications for enterprises that seamlessly automate workflows and improve
+                  efficiencies Powerapps.</p>
               </div>
             </div>
           </div>
@@ -736,31 +775,40 @@ databases.</p>
               <div class="icon"><i class="fas fa-calendar-check fa-3x pb-3" aria-hidden="true"></i></div>
               <div class="icon-info">
                 <h5 class="my-3"><a href="#">Testing</a></h5>
-                <p> Our Quality specialists have deep understanding of diverse testing strategies and applications. Using state-of-the-art testing models we are able to deliver cost-effective, bug-free solutions Selenium, Jmeter, Postman.</p>
+                <p> Our Quality specialists have deep understanding of diverse testing strategies and applications.
+                  Using state-of-the-art testing models we are able to deliver cost-effective, bug-free solutions
+                  Selenium, Jmeter, Postman.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 offset-lg-4" data-aos="flip-down" data-aos-offset="-900" data-aos-once="true"
-          data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
-          <div class="feature-gd">
-            <div class="icon"><i class="fas fa-hdd fa-3x pb-3" aria-hidden="true"></i></div>
-            <div class="icon-info">
-              <h5 class="my-3"><a href="#">Backend</a></h5>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta veritatis doloremque possimus commodi, quas quos blanditiis nam, numquam dolorem assumenda tempora quam sed reprehenderit natus cupiditate, minima repellendus nostrum? </p>
+            data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="feature-gd">
+              <div class="icon"><i class="fas fa-hdd fa-3x pb-3" aria-hidden="true"></i></div>
+              <div class="icon-info">
+                <h5 class="my-3"><a href="#">Backend</a></h5>
+                <p> With proficient knowledge in back-end programming language/ framework, we help to create high
+                  performing dynamic applications and manage large amount of data with complex algorithms in Python,
+                  Java, Liferay, Hibernate, Spring, .NET
+
+
+
+
+                </p>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
     <!-- //features -->
   </section>
- <section>
+  <section>
     <div class="header-section text-center pt-5">
       <h3>Our Portfolio</h3>
       <p class="mt-3 mb-5">Check out our beautifull portfolio.</p>
     </div>
- 
+
     <div class="container-fluid">
       <div class="row" data-aos="zoom-in-up" data-aos-offset="-900" data-aos-once="true" data-aos-delay="50"
         data-aos-duration="500" data-aos-easing="ease-in-out">
@@ -770,19 +818,23 @@ databases.</p>
               <div class="content-overlay-carouseled"></div>
               <img class="content-image-carouseled" src="assets/image/technology-5.jpg" style="min-height:100px;">
               <div class="content-details-carouseled fadeIn-bottom-carouseled">
-                
+
               </div>
             </a>
           </div>
-         <div  >
-          <a href=""> <h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Index Product Development App</h3></a>
-         
-         </div>
-           
-          
-          
-                <p class="text-center">Different data sources and different data definitions used in product development process.Severe reputational and financial risks, as many a times discrepancies used to come up after product  launch.
-</p>
+          <div cmd>
+            <a href="">
+              <h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Index Product Development App</h3>
+            </a>
+
+          </div>
+
+
+
+          <p class="text-center">Different data sources and different data definitions used in product development
+            process.Severe reputational and financial risks, as many a times discrepancies used to come up after product
+            launch.
+          </p>
         </div>
         <div class="col-md-4">
           <div class="content-carouseled" style="width:100%; border-radius: 20px;">
@@ -790,19 +842,23 @@ databases.</p>
               <div class="content-overlay-carouseled"></div>
               <img class="content-image-carouseled" src="assets/image/technology-2.jpg" style="min-height:100px;">
               <div class="content-details-carouseled fadeIn-bottom-carouseled">
-                
+
               </div>
             </a>
           </div>
-          <div  >
-            <a href=""> <h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Complex Index Models</h3></a>
-           
+          <div cmd>
+            <a href="">
+              <h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Complex Index Models</h3>
+            </a>
+
           </div>
-            
-         
-          
-                <p class="text-center">Client had a suite of complex models that needed to be validated afresh or migrated from archaic frameworks like Excel/Informatica
-New models with increasing complexities and with derivative instruments as underlying were to be validated</p>
+
+
+
+          <p class="text-center">Client had a suite of complex models that needed to be validated afresh or migrated
+            from archaic frameworks like Excel/Informatica
+            New models with increasing complexities and with derivative instruments as underlying were to be validated
+          </p>
         </div>
         <div class="col-md-4">
           <div class="content-carouseled" style="width:100%;border-radius: 20px;">
@@ -810,20 +866,24 @@ New models with increasing complexities and with derivative instruments as under
               <div class="content-overlay-carouseled"></div>
               <img class="content-image-carouseled" src="assets/image/technology-3.jpg" style="min-height:100px;">
               <div class="content-details-carouseled fadeIn-bottom-carouseled">
-                
+
               </div>
             </a>
           </div>
-          <div  >
-            <a href=""><h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Index Data Golden Copy</h3></a>
-            
+          <div cmd>
+            <a href="">
+              <h3 class="text-center pt-4" style="width:100%;border-radius: 20px;">Index Data Golden Copy</h3>
+            </a>
+
           </div>
-           
-          
-          
-                <p class="text-center">Client received request for historical data of flagship indices from fund managers, HNIs and family offices There were severe discrepancies in historical data with multiple data for same dates at different locations</p>
+
+
+
+          <p class="text-center">Client received request for historical data of flagship indices from fund managers,
+            HNIs and family offices There were severe discrepancies in historical data with multiple data for same dates
+            at different locations</p>
         </div>
- 
+
       </div>
     </div>
     <div class="clearfix"></div><br><br><br><br>
@@ -876,26 +936,26 @@ New models with increasing complexities and with derivative instruments as under
     </div>
   </section>
 
- <section class="w3l-contact" >
+  <section class="w3l-contact">
     <div class="contact-infubd py-5">
       <div class="container-fluid py-lg-3">
-    
+
         <div class="contact-grids row">
           <div class="col-md-5 contact-left py-5" data-aos="fade-up" data-aos-offset="-800" data-aos-once="true"
             data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
-            
+
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.3200786319026!2d77.07201401492017!3d28.5000161824703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19803d179c8f%3A0xfd2743e817e28b2b!2sIndxx%20Tower!5e0!3m2!1sen!2sin!4v1603272120659!5m2!1sen!2sin"
               width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="col-md-2 mobile-none text-center">
             <div class="mid-line">
- 
+
             </div>
           </div>
-         
+
           <div class="col-md-5 mt-lg-0 mt-5 contact-right " data-aos="fade-down" data-aos-offset="-800"
-            data-aos-once="true" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out" >
+            data-aos-once="true" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
             <h3 class="pb-4 text-center">Get In Touch With Us</h3>
             <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
               <div class="input-grids">
@@ -919,18 +979,18 @@ New models with increasing complexities and with derivative instruments as under
               </div>
             </form>
           </div>
- 
+
         </div>
- 
+
       </div>
   </section>
   <section class="w3l-blog-slider py-5" id="blog">
     <div class="container py-lg-4">
       <div class="header-section text-center">
         <h3>Latest Blog Post<h3>
-        <p class="mt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sit labore dolores
-          aliquam possimus deleniti cupiditate
-          temporibus, repudiandae suscipit asperiores vel.</p>
+            <p class="mt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sit labore dolores
+              aliquam possimus deleniti cupiditate
+              temporibus, repudiandae suscipit asperiores vel.</p>
       </div>
       <div class="inner-sec-w3layouts mt-md-5 mt-4">
         <div class="owl-three owl-carousel owl-theme" data-aos="zoom-in-up" data-aos-offset="-800" data-aos-once="true"
@@ -1053,152 +1113,152 @@ New models with increasing complexities and with derivative instruments as under
     </div>
   </section>
   <!-- footer -->
-  
-    <!--footer -->
-    <footer class="footer-emp-w3layouts bg-dark dotts py-lg-5 py-3">
-        <div class="container-fluid px-lg-5 px-3">
-            <div class="row footer-top">
-                <div class="col-lg-3 footer-grid-wthree-w3ls">
-                    <div class="footer-title">
-                        <h3>Services</h3>
-                    </div>
-                    <ul class="links">
-                      <li>
-                          <a href="database_development.html">
-                              <span>Data Development</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="data_governance.html">
-                              <span >Data Governance</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="full_stack_development.html">
-                              <span >Full Stack Development</span>
-                          </a>
-                      </li>   
-                      <li>
-                          <a href="liferay_development.html">
-                              <span>Liferay Development</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="model_validation.html">
-                              <span>Model Validation  </span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="process_consulting.html">
-                              <span >Process Consulting</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="quality_assurance.html">
-                              <span>Quality Assurance</span>
-                          </a>
-                      </li>
-                    </ul>
 
-                    <div class="clearfix"></div>
-                </div>
-                <div class="col-lg-3 footer-grid-wthree-w3ls">
-                    <div class="footer-title">
-                        <h3>Quantira EDM</h3>
-                    </div>
-                    <ul class="links">
-                        <li>
-                            <a href="platform.html">Platform</a>
-                        </li>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="col-lg-3 footer-grid-wthree-w3ls">
-                    <div class="footer-title">
-                        <h3>Overview</h3>
-                    </div>
-                    <ul class="links">
-                      <li>
-                          <a href="index.html#industries">
-                              <span>Industries</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="index.html#accordion">
-                              <span >Our Offerings</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="index.html#why-us">
-                              <span >Why Us</span>
-                          </a>
-                      </li>   
-                      <li>
-                          <a href="index.html#value-additions">
-                              <span >Value Additions</span>
-                          </a>
-                      </li>
-                    </ul>
+  <!--footer -->
+  <footer class="footer-emp-w3layouts bg-dark dotts py-lg-5 py-3">
+    <div class="container-fluid px-lg-5 px-3">
+      <div class="row footer-top">
+        <div class="col-lg-3 footer-grid-wthree-w3ls">
+          <div class="footer-title">
+            <h3>Services</h3>
+          </div>
+          <ul class="links">
+            <li>
+              <a href="database_development.html">
+                <span>Data Development</span>
+              </a>
+            </li>
+            <li>
+              <a href="data_governance.html">
+                <span>Data Governance</span>
+              </a>
+            </li>
+            <li>
+              <a href="full_stack_development.html">
+                <span>Full Stack Development</span>
+              </a>
+            </li>
+            <li>
+              <a href="liferay_development.html">
+                <span>Liferay Development</span>
+              </a>
+            </li>
+            <li>
+              <a href="model_validation.html">
+                <span>Model Validation </span>
+              </a>
+            </li>
+            <li>
+              <a href="process_consulting.html">
+                <span>Process Consulting</span>
+              </a>
+            </li>
+            <li>
+              <a href="quality_assurance.html">
+                <span>Quality Assurance</span>
+              </a>
+            </li>
+          </ul>
 
-                    <div class="clearfix"></div>
-                </div>
-                <div class="col-lg-3 footer-grid-wthree-w3ls">
-                    <div class="footer-title">
-                        <h3>About Us</h3>
-                    </div>
-                    <ul class="links">
-                        <li>
-                            <a href="about.html#core-values">Core Values</a>
-                        </li>
-                        <li>
-                            <a href="about.html#team">Executive Team</a>
-                        </li>
-                        <li>
-                            <a href="career.html">Careers</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social text-left mt-lg-4 mt-3">
-
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fab fa-facebook-f" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fab fa-twitter" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fab fa-google-plus-g" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fab fa-linkedin-in" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fas fa-rss" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                            <li class="mx-2">
-                                <a href="#">
-                                    <span class="fab fa-vk" aria-hidden="true"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="copyright mt-4">
-                <p class="copy-right text-center ">&copy; 2021 Quantira . All Rights Reserved | Design by
-                    <a href="https://www.quantira.com/"> Quantira </a>
-                </p>
-            </div>
+          <div class="clearfix"></div>
         </div>
-    </footer>
+        <div class="col-lg-3 footer-grid-wthree-w3ls">
+          <div class="footer-title">
+            <h3>Quantira EDM</h3>
+          </div>
+          <ul class="links">
+            <li>
+              <a href="platform.html">Platform</a>
+            </li>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-3 footer-grid-wthree-w3ls">
+          <div class="footer-title">
+            <h3>Overview</h3>
+          </div>
+          <ul class="links">
+            <li>
+              <a href="index.html#industries">
+                <span>Industries</span>
+              </a>
+            </li>
+            <li>
+              <a href="index.html#accordion">
+                <span>Our Offerings</span>
+              </a>
+            </li>
+            <li>
+              <a href="index.html#why-us">
+                <span>Why Us</span>
+              </a>
+            </li>
+            <li>
+              <a href="index.html#value-additions">
+                <span>Value Additions</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-3 footer-grid-wthree-w3ls">
+          <div class="footer-title">
+            <h3>About Us</h3>
+          </div>
+          <ul class="links">
+            <li>
+              <a href="about.html#core-values">Core Values</a>
+            </li>
+            <li>
+              <a href="about.html#team">Executive Team</a>
+            </li>
+            <li>
+              <a href="career.html">Careers</a>
+            </li>
+          </ul>
+          <ul class="footer-social text-left mt-lg-4 mt-3">
+
+            <li class="mx-2">
+              <a href="#">
+                <span class="fab fa-facebook-f" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#">
+                <span class="fab fa-twitter" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#">
+                <span class="fab fa-google-plus-g" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#">
+                <span class="fab fa-linkedin-in" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#">
+                <span class="fas fa-rss" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#">
+                <span class="fab fa-vk" aria-hidden="true"></span>
+              </a>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="copyright mt-4">
+        <p class="copy-right text-center ">&copy; 2021 Quantira . All Rights Reserved | Design by
+          <a href="https://www.quantira.com/"> Quantira </a>
+        </p>
+      </div>
+    </div>
+  </footer>
   <!-- Footer -->
 
   <!-- jQuery  -->
@@ -1382,38 +1442,17 @@ New models with increasing complexities and with derivative instruments as under
 
         $('.accordion').css('background-image', originalimage);
         $(".accordion-item").css("background-color", "");
-        // $("#google-lights").css("background-color", "");
+
         $(".accordion-item p, .accordion-item h3").css("color", "");
-        // $("#siri-lights").css("background-color", "");
-        // $("#alexa-party").css("background-color", "");
+
 
       });
-      $("#google-lights").hover(function () {
-        $("#google-lights h3").hide(50);
-        setTimeout(function () {
-          $("#google-lights h3").show(1000);
-        }, 700);
-        $("#message1").addClass("text-hidden");
-        $("#message2").removeClass("text-hidden");
-        $("#message3").addClass("text-hidden");
-        $("#message4").addClass("text-hidden");
-        $("#message5").addClass("text-hidden");
-        $("#message6").addClass("text-hidden");
-        $("#message7").addClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     $(".accordion-item").css("background-color", "rgba(255, 255, 220, 0.5)");
-        //     $("#google-lights p, .accordion-item h3").css("color", "rgb(0,0,0)");
-        // }, 700);
-      });
-      // $("#google-lights").click(function () {
-      //    window.location.href="https://www.google.com/";
 
-      // });
-      $("#alexa-netflix").hover(function () {
-        $("#alexa-netflix h3").hide(50);
+
+      $("#first").hover(function () {
+        $("#first h3").hide(50);
         setTimeout(function () {
-          $("#alexa-netflix h3").show(1000);
+          $("#first h3").show(1000);
         }, 700);
         $("#message1").removeClass("text-hidden");
         $("#message2").addClass("text-hidden");
@@ -1422,21 +1461,33 @@ New models with increasing complexities and with derivative instruments as under
         $("#message5").addClass("text-hidden");
         $("#message6").addClass("text-hidden");
         $("#message7").addClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     $(".accordion-item").css("background-color", "rgba(220, 67, 36, 0.4)");
-        // }, 900);
+        $(".accordion-item").css("background-color", "rgba(253, 175, 23, 1)");
+
       });
-      // $("#alexa-netflix").click(function () {
-      //   window.location.href="https://www.facebook.com/";
-      //   $("#message1").toggleClass("text-hidden");
 
-      // });
 
-      $("#siri-lights").hover(function () {
-        $("#siri-lights h3").hide(50);
+      $("#second").hover(function () {
+        $("#second h3").hide(50);
         setTimeout(function () {
-          $("#siri-lights h3").show(1000);
+          $("#second h3").show(1000);
+        }, 700);
+        $("#message1").addClass("text-hidden");
+        $("#message2").removeClass("text-hidden");
+        $("#message3").addClass("text-hidden");
+        $("#message4").addClass("text-hidden");
+        $("#message5").addClass("text-hidden");
+        $("#message6").addClass("text-hidden");
+        $("#message7").addClass("text-hidden");
+        $(".accordion-item").css("background-color", "rgba(74, 144, 226, 1)");
+
+      });
+
+
+
+      $("#third").hover(function () {
+        $("#third h3").hide(50);
+        setTimeout(function () {
+          $("#third h3").show(1000);
         }, 700);
         $("#message1").addClass("text-hidden");
         $("#message2").addClass("text-hidden");
@@ -1446,15 +1497,13 @@ New models with increasing complexities and with derivative instruments as under
         $("#message6").addClass("text-hidden");
         $("#message7").addClass("text-hidden");
 
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // // setTimeout(function () {
-        //     $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.9)");
-        // }, 900);
+        $(".accordion-item").css("background-color", "rgba(253, 175, 23, 1)");
+
       });
-      $("#alexa-party").hover(function () {
-        $("#alexa-party h3").hide(50);
+      $("#fourth").hover(function () {
+        $("#fourth h3").hide(50);
         setTimeout(function () {
-          $("#alexa-party h3").show(1000);
+          $("#fourth h3").show(1000);
         }, 700);
         $("#message1").addClass("text-hidden");
         $("#message2").addClass("text-hidden");
@@ -1463,10 +1512,8 @@ New models with increasing complexities and with derivative instruments as under
         $("#message5").addClass("text-hidden");
         $("#message6").addClass("text-hidden");
         $("#message7").addClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     partyLights()
-        // }, 700);
+        $(".accordion-item").css("background-color", "rgba(74, 144, 226, 1)");
+
 
       });
       $("#fifth").hover(function () {
@@ -1481,10 +1528,8 @@ New models with increasing complexities and with derivative instruments as under
         $("#message5").removeClass("text-hidden");
         $("#message6").addClass("text-hidden");
         $("#message7").addClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     partyLights()
-        // }, 700);
+        $(".accordion-item").css("background-color", "rgba(253, 175, 23, 1)");
+
 
       });
       $("#sixth").hover(function () {
@@ -1499,10 +1544,8 @@ New models with increasing complexities and with derivative instruments as under
         $("#message5").addClass("text-hidden");
         $("#message6").removeClass("text-hidden");
         $("#message7").addClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     partyLights()
-        // }, 700);
+        $(".accordion-item").css("background-color", "rgba(74, 144, 226, 1)");
+
 
       });
       $("#seventh").hover(function () {
@@ -1517,15 +1560,11 @@ New models with increasing complexities and with derivative instruments as under
         $("#message5").addClass("text-hidden");
         $("#message6").addClass("text-hidden");
         $("#message7").removeClass("text-hidden");
-        $(".accordion-item").css("background-color", "rgba(10, 10, 10, 0.4)");
-        // setTimeout(function () {
-        //     partyLights()
-        // }, 700);
+        $(".accordion-item").css("background-color", "rgba(253, 175, 23, 1)");
+
 
       });
     });
-
-    
   </script>
 
 </body>
