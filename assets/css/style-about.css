@@ -4560,9 +4560,9 @@ input[type="button"].btn-block {
   .fade:not(.show) {
     opacity: 0; }
 
-.collapse:not(.show) {
+/*.collapse:not(.show) {
   display: none; }
-
+*/
 .collapsing {
   position: relative;
   height: 0;
@@ -14197,8 +14197,8 @@ padding-top: 20px;
     line-height: 2rem !important;
     min-width: 250px !important;
     text-align: center !important;
-    margin-left: 714px  !important;
-    margin-top: -36px !important;
+    /*margin-left: 714px  !important;*/
+    /*margin-top: -36px !important;*/
 }
 
 .member h4{

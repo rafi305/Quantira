@@ -477,3 +477,14 @@ button:hover {
     line-height: 28px;
   }
 }
+.breadcrum-bg{
+  background: rgba(1, 117, 213, 0.9);
+}
+.col-md-6{
+  color: #fff;
+  font-weight: 700px; 
+}
+.col-md-6 p{
+  color: #fff;
+  font-weight: 700px; 
+}

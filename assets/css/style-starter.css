@@ -3039,8 +3039,7 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
-  display: block;
-  padding: 0.5rem 1rem; }
+  display: block; }
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -12516,4 +12515,17 @@ ul.links li a:hover {
 
 .pl-6{
   padding-left: 4rem !important;
+}
+
+  .nav li {
+  list-style: none;
+  padding: 5px 10px;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav .sub-menu {
+  display: none;
 }
